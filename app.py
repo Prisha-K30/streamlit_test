@@ -1,5 +1,5 @@
 import streamlit as st
-import numpy as pd
+import numpy as np
 import pickle
 with open('svm_car_type_model.pkl', 'rb') as file:
     model = pickle.load(file)
@@ -17,3 +17,4 @@ if st.button('Predict Car Type'):
     else:
         st.success('The car is likely to be a Sedan.')
         st.snow()
+
