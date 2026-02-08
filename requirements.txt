@@ -1,0 +1,9 @@
+streamlit
+numpy
+pandas
+scikit-learn
+matplotlib
+seaborn
+StandardScaler
+train_test_split
+pickle
